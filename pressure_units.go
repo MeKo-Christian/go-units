@@ -35,7 +35,7 @@ var (
 	MH2O     = NewUnit("meter of Water Column", "mmH2O", Pressure, BI, UnitOptionPlural("meters of Water Column"))
 	MmH2O    = Milli(MH2O)
 	CmH2O    = Centi(MH2O)
-	MHg      = NewUnit("meter of Mercury", "mmHg", Pressure, BI, UnitOptionPlural("meters of Mercury"))
+	MHg      = NewUnit("meter of Mercury", "mHg", Pressure, BI, UnitOptionPlural("meters of Mercury"))
 	MmHg     = Milli(MHg)
 	CmHg     = Centi(MHg)
 	Newton   = NewUnit("newton per square meter", "N/m²", Pressure, BI)
