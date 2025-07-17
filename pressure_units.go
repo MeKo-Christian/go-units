@@ -45,14 +45,14 @@ var (
 
 func init() {
 	NewRatioConversion(At, Pascal, 98066.5)
-	NewRatioConversion(Atm, Pascal, 101325.2738)
+	NewRatioConversion(Atm, Pascal, 101325)
 	NewRatioConversion(Bar, Pascal, 100000)
 	NewRatioConversion(Barye, Pascal, 0.1)
 	NewRatioConversion(InH2O, Pascal, 248.84)
 	NewRatioConversion(InHg, Pascal, 3386.38815789)
 	NewRatioConversion(MH2O, Pascal, 9806.65)
-	NewRatioConversion(MHg, Pascal, 133322.368421)
+	NewRatioConversion(MHg, Pascal, 133322.387415)
 	NewRatioConversion(Newton, Pascal, 1)
-	NewRatioConversion(Psi, Pascal, 6894.757)
-	NewRatioConversion(Torr, Pascal, 133.322368421)
+	NewRatioConversion(Psi, Pascal, 6894.757185)
+	NewRatioConversion(Torr, Pascal, 133.322387415)
 }
