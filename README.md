@@ -54,6 +54,7 @@ fmt.Println(val.Float())   // "15.456932"
 ### Lookup
 
 The package-level `Find()` method may be used to search for a unit by name, symbol, or alternate spelling:
+
 ```go
 // symbol
 unit, err := u.Find("m")

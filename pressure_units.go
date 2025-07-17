@@ -51,7 +51,7 @@ func init() {
 	NewRatioConversion(InH2O, Pascal, 248.84)
 	NewRatioConversion(InHg, Pascal, 3386.38815789)
 	NewRatioConversion(MH2O, Pascal, 9806.65)
-	NewRatioConversion(MHg, Pascal, 133.322368421)
+	NewRatioConversion(MHg, Pascal, 133322.368421)
 	NewRatioConversion(Newton, Pascal, 1)
 	NewRatioConversion(Psi, Pascal, 6894.757)
 	NewRatioConversion(Torr, Pascal, 133.322368421)
